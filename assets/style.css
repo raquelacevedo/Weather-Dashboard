@@ -1,0 +1,68 @@
+  
+  ul{ 
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li{ 
+    font-size: 8pt;
+  }
+  
+  .col { 
+    padding: 5px;
+  }
+  
+  .card {
+    width: 100%;
+    background-color: lightgray;
+  }
+  
+  
+  .forecast-card {
+    background-color: lightskyblue;
+
+  }
+  
+  .search-section {
+    height: 100%;
+  }
+  
+  
+  .cityList {
+    border: solid;
+    border-width: thin;
+    margin: 5px;
+    padding-left: 2px;
+    background-color: lightskyblue;
+  }
+  
+  .cityList:hover {
+    background-color: salmon;
+    color: lightgoldenrodyellow;
+  }
+  
+  .container {
+    margin-top: 5px;
+  }
+
+  .footer {
+    /* set text properties */
+    background-color: #666;
+    
+    /* sets height of footer*/
+    height: 10%;
+    
+    /* sets properties for footer border*/
+    border-top: solid;
+    border-top-color: #b6d7e2;  
+    border-top-width: 8px;
+  }
+  
+  .footer-text, .header-text {
+    /* forces text across the entire screen so it has a center */
+    width: 100%;
+    text-align: center;
+  
+    font-size: 10px;
+    color:linen; 
+  }
